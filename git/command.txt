@@ -1,0 +1,50 @@
+ 1 git status  = check the git repositry
+ 2 git init = to make the folder the git repositry
+ 3 git add --a = put files into staging area
+ 4 git commmit -m "Intial commit" = commit the file
+
+after modifieng the file
+to commit
+ 5 git add file name (to stage only modified file) 
+ 6 git commit -m '' any message"
+
+ 7  rm -rf .git =delete all git
+ 8 git clone url = clone git
+ (if you want to change the name of git url type new name after giving space after url
+ 9 pwd = to know working directory
+10 ls = to know files of the folder
+11 cd= change directory
+12 touch error.log = new file in folder that have to be ignore
+13 git rm --cached file name = to unstage
+14 touch .gitignore = new file  in folder to
+ (if we type errorlog or filed have to be ignore in .gitignore file we can ignore that file , and for folder type the folder name and give a slash.and to ignore different files like different error.log, shekhar.log just type *.log in the gitignore folder all the .log file will be untracked)(to only ignore the outer folder name not all with same folder name use /folder name/) to be ignored the file shouldn't be tracked first untracked the file.)
+15 git diff = compare  the working directory with staging area
+16 git diff --staged = compare it with previous staged version 
+ 
+1  git commit -a -m "direct command"
+this direct commit the modified file 
+2 git rm file name = deleter the file 
+3  git mv file name   new file name = rename
+4 git log -p = show commit with the difference
+git log -p -1  = show only 1 commit
+5 git log --stat= show change in commit in shortcut like short summary
+6 'git log --pretty=one line'   = show all commit
+7 'git log --pretty=short' = show all commit in short
+8 'git log --pretty=full' = show full commit with author and commiter
+9 'git log --since= 2 days' = show commit of 2 days
+10 'git log --pretty=format:"%h -- %an" = gives author name like this there are different format just search in internet
+11 git commit --amend = to merge the commit on others and chagne commit
+ 12 git restore --staged file name = to unstaged the already staged file
+13 git checkout -- file name = to return to previous commit
+only for not staged file
+14 git checkout -f = all file to previous commit
+15 git repositry code link = to make it the remote
+16 git remote = to check the name of (mostly time name is origin)
+17 git push -u origin master = to push code into github
+18 git config --global alias.st status  = shortcuting the command status. if the command is two or more word make it in a string
+19 git restore file name = to discard all change in working directory
+
+
+
+
+

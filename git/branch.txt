@@ -1,0 +1,19 @@
+ git checkout -b develop = made new branch name develope  and switched to it
+ git checkout master = to return to branch
+ git checkout develop = go to develop branch 
+git merge branch name = to merge branch with master
+git branch = to check branches
+git branch -v = to check branch with previous commit has and message
+git branch --merged = show alread merged branches
+git branch --no-merged = not already merged branches
+
+git branch -d branch name =gives error if develop is not merged  and type same command with -D it will delete
+
+
+esc key and : and w and q is used to quit vim editor
+
+for branch go to that branch
+and 
+git push branch name 
+(if we want to change the branch name in git hub )
+(git push branch name:new branch name):not recommended
